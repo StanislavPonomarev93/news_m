@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Cambria";
+  src: url("fonts/Cambria.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cambria";
+  src: url("fonts/Cambria-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cambria";
+  src: url("fonts/Cambria-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("fonts/DINPro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("fonts/DINPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input[type="file"] {
+  color: transparent;
+}
+
+i {
+  font-style: normal;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+  border: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:root {
+  --color1: #be2729;
+  --color2: #d6d6d6;
+  --color3: #46494f;
+  --color4: rgba(0, 0, 0, 0.5);
+  --color5: #f1f1f1;
+  --color6: rgba(255, 255, 255, 0.5);
+  --color7: rgba(0, 0, 0, 0.9);
+  --color8: rgba(0, 0, 0, 0.7);
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 1vw;
+  }
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  scrollbar-width: thin;
+  scrollbar-color: #cbcbcb #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #cbcbcb;
+}

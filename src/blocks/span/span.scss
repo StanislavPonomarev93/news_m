@@ -1,0 +1,14 @@
+.span {
+  //color
+  &_color {
+    &1 {
+      color: var(--color1);
+    }
+    &2 {
+      color: var(--color6);
+    }
+    &3 {
+      color: var(--color4);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.img {
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+  position: relative;
+
+  &_height {
+    &1 {
+      height: 4.68rem;
+      width: auto;
+    }
+  }
+
+  &_margin {
+    &1 {
+      margin: 0 0 0 auto;
+    }
+    &2 {
+      margin: 0 0 0 4.7rem;
+    }
+  }
+}
