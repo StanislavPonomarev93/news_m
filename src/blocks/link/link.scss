@@ -55,6 +55,9 @@
     }
 
     &-size {
+      &1 {
+        font-size: 4.68rem;
+      }
     }
   }
 
@@ -65,6 +68,9 @@
   }
 
   &_color {
+    &1 {
+      color: var(--color8);
+    }
   }
 
   &_width {
