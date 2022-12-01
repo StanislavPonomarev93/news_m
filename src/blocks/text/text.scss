@@ -1,25 +1,19 @@
 .text {
-  font-size: 1.25rem;
+  font-size: 4.68rem;
 
   &_font {
     &-size {
       &1 {
-        font-size: 1.04rem;
+        font-size: 3.75rem;
       }
       &2 {
-        font-size: 1.18rem;
+        font-size: 4.37rem;
       }
       &3 {
-        font-size: 0.97rem;
+        font-size: 3.12rem;
       }
       &4 {
-        font-size: 1.11rem;
-      }
-      &5 {
-        font-size: 0.76em;
-      }
-      &6 {
-        font-size: 0.83rem;
+        font-size: 2.5rem;
       }
     }
 
@@ -31,122 +25,87 @@
         font-family: DINPro;
         font-weight: 500;
       }
+      &_Cambria-700 {
+        font-family: Cambria;
+        font-weight: 700;
+      }
     }
   }
 
   &_color {
     &1 {
-      color: var(--color4);
-    }
-    &2 {
-      color: var(--color1);
-    }
-    &3 {
       color: #fff;
     }
-    &4 {
+    &2 {
       color: #000;
     }
-    &5 {
-      color: var(--color3);
+    &3 {
+      color: var(--color1);
+    }
+    &4 {
+      color: var(--color4);
     }
   }
 
   &_line-height {
     &1 {
-      line-height: 1;
+      line-height: 1.5;
     }
     &2 {
-      line-height: 1.6;
+      line-height: 1.9;
     }
   }
 
   &_margin {
     &1 {
-      margin: 0.7rem 0 0;
+      margin: -3.3rem 0 2.7rem;
     }
     &2 {
-      margin: 1.9rem 0 0;
+      margin: 0 0 0 5.2rem;
     }
     &3 {
-      margin: 0.4rem 0 0;
+      margin: -1rem 0 0;
     }
     &4 {
-      margin: 1.2rem 0 0;
+      margin: 3.5rem 0 0;
     }
     &5 {
-      margin: 0 0 0 0.9rem;
+      margin: 3.1rem 0 0;
     }
     &6 {
-      margin: 1.25rem 0 0;
+      margin: 3rem 0 0;
     }
     &7 {
-      margin: 1.04rem 0 0;
+      margin: 4rem 0 0;
     }
     &8 {
-      margin: 0.4rem 0 0;
-    }
-    &9 {
       margin: 0.2rem 0 0;
     }
-    &10 {
-      margin: -1.2rem 0 0.9rem;
-    }
-    &11 {
-      margin: 0 0 0 1.85rem;
-    }
-    &12 {
-      margin: -0.25rem 0 0 1.3rem;
-    }
-    &13 {
-      margin: 1.4rem 0 0;
-    }
-    &14 {
-      margin: 3.5rem 0 0;
+    &9 {
+      margin: 0.3rem 0 0;
     }
   }
 
   &_padding {
-    &1 {
-      padding: 0.4rem 1.66rem .76rem;
-    }
-    &2 {
-      padding: 0.3rem 0;
-    }
   }
 
   &_border {
-    &1 {
-      border-width: 0 1px 1px 1px;
-      border-style: solid;
-      border-color: var(--color2);
-    }
-    &2 {
-      border-right: 1px solid var(--color2);
-    }
   }
 
   &_width {
     &1 {
-      width: 7.56rem;
-    }
-    &2 {
-      width: 20.97rem;
+      width: 28.9rem;
     }
   }
 
   &_height {
     &1 {
-      max-height: 3rem;
       overflow-y: hidden;
+      max-height: 16rem;
     }
     &2 {
-      max-height: 3.5rem;
       overflow-y: hidden;
-    }
-    &3 {
-      max-height: 6rem;
-      overflow-y: hidden;
+      max-height: 21rem;
     }
   }
 
@@ -154,9 +113,6 @@
     &-color {
       &1 {
         background-color: var(--color3);
-      }
-      &2 {
-        background-color: var(--color1);
       }
     }
   }
@@ -174,23 +130,5 @@
   }
 
   &_position {
-    &1 {
-      position: absolute;
-      top: 0;
-      left: 1.45rem;
-      z-index: 10;
-    }
-    &2 {
-      position: absolute;
-      bottom: 4.45rem;
-      left: 1.45rem;
-      z-index: 10;
-    }
-    &3 {
-      position: absolute;
-      bottom: 1.5rem;
-      left: 1.45rem;
-      z-index: 10;
-    }
   }
 }

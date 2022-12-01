@@ -4,7 +4,13 @@
   position: relative;
 
   &_display-none {
-    display: none;
+    &1 {
+      display: none;
+    }
+    &2 {
+      opacity: 0;
+      z-index: -100;
+    }
   }
 
   &_row {
@@ -21,6 +27,9 @@
     &_flex-end {
       justify-content: flex-end;
     }
+    &_center {
+      justify-content: center;
+    }
   }
 
   &_align-items {
@@ -30,12 +39,24 @@
     &_center {
       align-items: center;
     }
+    &_stretch {
+      align-items: stretch;
+    }
   }
 
   &_column-gap {
+    &1 {
+      column-gap: 4.53rem;
+    }
+    &2 {
+      column-gap: 19.5rem;
+    }
   }
 
   &_row-gap {
+    &1 {
+      row-gap: 3.2rem;
+    }
   }
 
   &_flex {
@@ -56,32 +77,99 @@
   }
 
   &_height {
-    &1 {
-      height: 100%;
-    }
   }
 
   &_margin {
+    &1 {
+      margin: 4.2rem 0 0;
+    }
+    &2 {
+      margin: 0 0 0 4.8rem;
+    }
+    &3 {
+      margin: 4rem 0 0;
+    }
+    &4 {
+      margin: 0 -3.1rem;
+    }
+    &5 {
+      margin: 7.5rem 0 0;
+    }
+    &6 {
+      margin: 0 -3.1rem 0 0;
+    }
+    &7 {
+      margin: 0 3.12rem 0 0;
+    }
+    &8 {
+      margin: 6.5rem 0 0;
+    }
+    &9 {
+      margin: 5rem 0 0;
+    }
   }
 
   &_padding {
+    &1 {
+      padding: 8rem 3.1rem;
+    }
+    &2 {
+      padding: 5rem 0;
+    }
+    &3 {
+      padding: 4.4rem 0 5.4rem;
+    }
+    &4 {
+      padding: 5.5rem 3.1rem 8rem;
+    }
+    &5 {
+      padding: 4.68rem 5rem 6rem;
+    }
   }
 
   &_border {
+    &1 {
+      border-top: 1px solid var(--color9);
+    }
+    &2 {
+      border-bottom: 1px solid var(--color9);
+    }
+    &3 {
+      border: 1px solid var(--color9);
+    }
   }
 
   &_background {
     &-color {
+      &1 {
+        background-color: var(--color5);
+      }
+      &2 {
+        background-color: var(--color1);
+      }
     }
-    &_background-image {
+    &-image {
+      &1::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url(img/icon/ic9.svg);
+        background-repeat: no-repeat;
+        background-size: 8rem;
+        background-position: center;
+      }
     }
   }
 
   &_position {
     &1 {
       position: absolute;
-      top: 0;
+      top: 50%;
       left: 0;
+      transform: translateY(-50%);
     }
   }
+
+  
 }

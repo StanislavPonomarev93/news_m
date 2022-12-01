@@ -13,10 +13,10 @@ export const scss = () => {
   const scssAll = app.gulp.src('src/blocks/**/*.scss')
     .pipe(bulk())
     .pipe(sass());
-  const modulesScc = app.gulp.src('node_modules/swiper/swiper-bundle.min.css')
+  // const modulesScc = app.gulp.src('node_modules/swiper/swiper-bundle.min.css')
 
   // return merge(cssMain, modulesScc, scssAll)
-  return merge(cssMain, modulesScc, scssAll)
+  return merge(cssMain, scssAll)
     .pipe(prefixer(
       {
         overrideBrowserslist: ['last 8 versions'],

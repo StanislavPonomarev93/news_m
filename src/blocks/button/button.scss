@@ -1,19 +1,24 @@
 .button {
-  cursor: pointer;
   background-color: #fff;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  //border
   &_border {
-    &1 {
+    &1, &1:focus {
       border: 1px solid var(--color1);
     }
   }
 
-  //width
-  &_width {
+  &_size {
     &1 {
-      width: 10rem;
+      width: 12rem;
+      height: 10rem;
+    }
+    &2 {
+      width: 12rem;
+      height: 8rem;
     }
   }
 }

@@ -1,27 +1,27 @@
 .title {
+  font-size: 4.68rem;
   &_font {
     &-size {
       &1 {
-        font-size: 2.5rem;
+        font-size: 5rem;
       }
-      &2 {
-        font-size: 1.25rem;
-      }
-      &3 {
-        font-size: 1.8rem;
-      }
+    }
+
+    &_DINPro-500 {
+      font-family: DINPro;
+      font-weight: 500;
     }
   }
 
   &_margin {
     &1 {
-      margin: 1.2rem 0 0;
+      margin: 3rem 0 0;
     }
-    &2 {
-      margin: 0.72rem 0 0;
-    }
-    &3 {
-      margin: 0.3rem 0 0;
+  }
+
+  &_padding {
+    &1 {
+      padding: 7.5rem 0 3rem;
     }
   }
 
@@ -32,20 +32,15 @@
     &2 {
       color: #000;
     }
+    &3 {
+      color: var(--color8);
+    }
   }
 
   &_height {
     &1 {
-      max-height: 4.4rem;
       overflow-y: hidden;
-    }
-    &2 {
-      max-height: 9rem;
-      overflow-y: hidden;
-    }
-    &3 {
-      max-height: 6rem;
-      overflow-y: hidden;
+      max-height: 23.5rem;
     }
   }
 }

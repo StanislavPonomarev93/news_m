@@ -4,10 +4,58 @@
   flex-shrink: 0;
   position: relative;
 
+
+  &_size {
+    &1 {
+      width: 32.65rem;
+      height: 24.21rem;
+    }
+  }
+
+  &_width {
+    &1 {
+      width: 29rem;
+    }
+    &2 {
+      width: 6rem;
+    }
+    &3 {
+      width: 9.37rem;
+    }
+  }
+
   &_height {
     &1 {
       height: 4.68rem;
       width: auto;
+    }
+    &2 {
+      height: 6rem;
+      width: auto;
+    }
+    &3 {
+      height: 8.8rem;
+      width: auto;
+    }
+    &4 {
+      height: 7rem;
+      width: auto;
+    }
+    &5 {
+      height: 8rem;
+      width: auto;
+    }
+    &6 {
+      height: 15rem;
+    }
+    &7 {
+      height: 54.84rem;
+    }
+    &8 {
+      height: 41.66rem;
+    }
+    &9 {
+      height: 39rem;
     }
   }
 

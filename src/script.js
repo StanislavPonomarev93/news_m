@@ -1,46 +1,23 @@
-const containerSearch = document.querySelector('.container_search');
-const inputSearch = document.querySelector('.input_search');
-
-inputSearch.addEventListener('blur', () => {
-  containerSearch.classList.add('container_display-none');
-})
-
-
-document.querySelector('.loupe').addEventListener('click', () => {
-  containerSearch.classList.remove('container_display-none');
-  inputSearch.focus();
+const swiper1 = new Swiper('.swiper1', {
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  slidesPerView: 1.11,
 });
 
-// import Swiper, { Navigation, Pagination, EffectFade } from 'swiper';
+const containerSearch2 = document.querySelector('.container_search2');
+const inputSearch2 = document.querySelector('.input_search2');
 
-// const swiper1 = new Swiper('.swiper1', {
-//   modules: [Navigation, Pagination, EffectFade],
-//   pagination: {
-//     el: '.swiper-pagination',
-//     type: 'fraction'
-//   },
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-//   allowTouchMove: false,
-//   spaceBetween: 10,
-//   effect: 'fade',
-//   fadeEffect: {
-//     crossFade: true
-//   }
-// });
+document.querySelector('.loupe2').addEventListener('click', () => {
+  if (containerSearch2.classList.contains('container_display-none1')) {
+    containerSearch2.classList.remove('container_display-none1');
+    document.querySelector('meta[name=viewport]').setAttribute('content',
+      'width=device-width, minimum-scale=1.0, maximum-scale=1.0 initial-scale=1.0');
+    inputSearch2.focus();
+  } else {
+    containerSearch2.classList.add('container_display-none1');
+    document.querySelector('meta[name=viewport]').setAttribute('content', 'width=device-width, initial-scale=1.0');
+  }
 
-// const calcNews = () => {
-//   const containerLandmark = document.querySelector('.container-landmark').offsetHeight;
-//   const containerMainNews = document.querySelector('.container-main-news');
-//   let containerNews = containerMainNews.querySelectorAll('.container-news');
-//   containerMainNews.classList.remove('container_display-none');
+});
 
-//   while (containerMainNews.offsetHeight + 555 > containerLandmark) {
-//     containerNews[containerNews.length - 1].remove();
-//     containerNews = containerMainNews.querySelectorAll('.container-news');
-//   }
-// }
-
-// calcNews();
