@@ -5,17 +5,27 @@
       &1 {
         font-size: 5rem;
       }
+      &2 {
+        font-size: 4.68rem;
+      }
     }
 
     &_DINPro-500 {
       font-family: DINPro;
       font-weight: 500;
     }
+    &_DINPro-400 {
+      font-family: DINPro;
+      font-weight: 400;
+    }
   }
 
   &_margin {
     &1 {
       margin: 3rem 0 0;
+    }
+    &2 {
+      margin: 2.2rem 0 0;
     }
   }
 
@@ -34,6 +44,9 @@
     }
     &3 {
       color: var(--color8);
+    }
+    &4 {
+      color: var(--color4);
     }
   }
 

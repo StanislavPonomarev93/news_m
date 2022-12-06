@@ -36,12 +36,20 @@
     content: "\2193";
   }
 
+  //вертикальная линия
+  &8::before {
+    content: "\2758";
+  }
+
   &_color {
     &1 {
       color: var(--color1);
     }
     &2 {
       color: #fff;
+    }
+    &3 {
+      color: var(--color4);
     }
   }
 
@@ -51,6 +59,10 @@
         font-weight: 700;
       }
     }
+    &_DINPro-400 {
+      font-family: DINPro;
+      font-weight: 400;
+    }
     &-size {
       &1 {
         font-size: 6rem;
@@ -58,12 +70,24 @@
       &2 {
         font-size: 4rem;
       }
+      &3 {
+        font-size: 4.68rem;
+      }
     }
   }
 
   &_margin {
     &1 {
       margin: 1rem 0 0;
+    }
+    &2 {
+      margin: 0 1.6rem;
+    }
+  }
+
+  &_line-height {
+    &1 {
+      line-height: 1.3;
     }
   }
 }

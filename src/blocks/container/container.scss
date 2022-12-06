@@ -51,11 +51,17 @@
     &2 {
       column-gap: 19.5rem;
     }
+    &3 {
+      column-gap: 5rem;
+    }
   }
 
   &_row-gap {
     &1 {
       row-gap: 3.2rem;
+    }
+    &2 {
+      row-gap: 1rem;
     }
   }
 
@@ -63,6 +69,11 @@
     &-grow {
       &1 {
         flex-grow: 1;
+      }
+    }
+    &-wrap {
+      &1 {
+        flex-wrap: wrap;
       }
     }
   }
@@ -109,6 +120,15 @@
     }
     &10 {
       margin: -1.3rem 0 3rem;
+    }
+    &11 {
+      margin: -1rem 0 0;
+    }
+    &12 {
+      margin: 9rem 0 0;
+    }
+    &13 {
+      margin: 7rem 0 0;
     }
   }
 
@@ -173,6 +193,4 @@
       transform: translateY(-50%);
     }
   }
-
-  
 }

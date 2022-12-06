@@ -58,6 +58,9 @@
       &1 {
         font-size: 4.68rem;
       }
+      &2 {
+        font-size: 4.37rem;
+      }
     }
   }
 
@@ -65,11 +68,20 @@
     &1 {
       letter-spacing: 0.04em;
     }
+    &2 {
+      letter-spacing: 0.05em;
+    }
   }
 
   &_color {
     &1 {
       color: var(--color8);
+    }
+    &2 {
+      color: var(--color4);
+    }
+    &3 {
+      color: var(--color1);
     }
   }
 
