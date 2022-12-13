@@ -40,6 +40,7 @@ const openSwiperBig = () => {
   const swiperBig = document.querySelector('.swiper-big');
   document.querySelector('.open-swiper-big').addEventListener('click', () => {
     swiperBig.classList.remove('container_display-none');
+    window.scrollTo(0, 0);
   });
   document.querySelector('.close-swiper-big').addEventListener('click', () => {
     swiperBig.classList.add('container_display-none');
