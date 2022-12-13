@@ -5,19 +5,47 @@ const swiper1 = new Swiper('.swiper1', {
   slidesPerView: 1.11,
 });
 
+const swiper2 = new Swiper('.swiper2', {
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction'
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  spaceBetween: 10,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  }
+});
+
 const containerSearch2 = document.querySelector('.container_search2');
 const inputSearch2 = document.querySelector('.input_search2');
 
 document.querySelector('.loupe2').addEventListener('click', () => {
-  if (containerSearch2.classList.contains('container_display-none1')) {
-    containerSearch2.classList.remove('container_display-none1');
+  if (containerSearch2.classList.contains('container_display-none')) {
+    containerSearch2.classList.remove('container_display-none');
     document.querySelector('meta[name=viewport]').setAttribute('content',
       'width=device-width, minimum-scale=1.0, maximum-scale=1.0 initial-scale=1.0');
     inputSearch2.focus();
   } else {
-    containerSearch2.classList.add('container_display-none1');
+    containerSearch2.classList.add('container_display-none');
     document.querySelector('meta[name=viewport]').setAttribute('content', 'width=device-width, initial-scale=1.0');
   }
-
 });
 
+const openSwiperBig = () => {
+  const swiperBig = document.querySelector('.swiper-big');
+  document.querySelector('.open-swiper-big').addEventListener('click', () => {
+    swiperBig.classList.remove('container_display-none');
+  });
+  document.querySelector('.close-swiper-big').addEventListener('click', () => {
+    swiperBig.classList.add('container_display-none');
+  })
+}
+
+if (document.querySelector('.open-swiper-big')) {
+  openSwiperBig();
+}
