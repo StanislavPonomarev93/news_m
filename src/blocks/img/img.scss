@@ -10,6 +10,10 @@
       width: 32.65rem;
       height: 24.21rem;
     }
+    &2 {
+      width: 5rem;
+      height: 5rem;
+    }
   }
 
   &_width {
@@ -21,6 +25,9 @@
     }
     &3 {
       width: 9.37rem;
+    }
+    &4 {
+      width: 3.6rem;
     }
   }
 
@@ -66,6 +73,12 @@
     &12 {
       height: 52.69rem;
     }
+    &13 {
+      height: 69.65rem;
+    }
+    &14 {
+      height: 74.4rem;
+    }
   }
 
   &_margin {
@@ -86,6 +99,24 @@
     }
     &6 {
       margin: -2.7rem 0 2.7rem;
+    }
+    &7 {
+      margin: 0 0 4.84rem;
+    }
+    &8 {
+      margin: 0 0 4rem;
+    }
+    &9 {
+      margin: 4rem 5rem 3.4rem auto;
+    }
+  }
+
+  &_position {
+    &1 {
+      position: absolute;
+      top: 13rem;
+      left: 86rem;
+      z-index: 100;
     }
   }
 }

@@ -4,13 +4,7 @@
   position: relative;
 
   &_display-none {
-    &1 {
-      display: none;
-    }
-    &2 {
-      opacity: 0;
-      z-index: -100;
-    }
+    display: none;
   }
 
   &_row {
@@ -78,16 +72,10 @@
     }
   }
 
-  &_grid {
-  }
-
   &_width {
     &1 {
       width: 100%;
     }
-  }
-
-  &_height {
   }
 
   &_margin {
@@ -130,6 +118,9 @@
     &13 {
       margin: 7rem 0 0;
     }
+    &14 {
+      margin: 5.6rem 0 0;
+    }
   }
 
   &_padding {
@@ -147,6 +138,9 @@
     }
     &5 {
       padding: 4.68rem 5rem 6rem;
+    }
+    &6 {
+      padding: 1rem 4.8rem;
     }
   }
 
@@ -170,6 +164,9 @@
       &2 {
         background-color: var(--color1);
       }
+      &3 {
+        background-color: var(--color10);
+      }
     }
     &-image {
       &1::after {
@@ -191,6 +188,14 @@
       top: 50%;
       left: 0;
       transform: translateY(-50%);
+    }
+    &2 {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
     }
   }
 }

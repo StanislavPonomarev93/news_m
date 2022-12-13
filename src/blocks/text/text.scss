@@ -15,6 +15,9 @@
       &4 {
         font-size: 2.5rem;
       }
+      &5 {
+        font-size: 5.31rem;
+      }
     }
 
     &-family {
@@ -28,6 +31,10 @@
       &_Cambria-700 {
         font-family: Cambria;
         font-weight: 700;
+      }
+      &_Cambria-400 {
+        font-family: Cambria;
+        font-weight: 400;
       }
     }
   }
@@ -93,12 +100,9 @@
     &11 {
       margin: 2rem 0 0;
     }
-  }
-
-  &_padding {
-  }
-
-  &_border {
+    &12 {
+      margin: 6.3rem 7rem 0 6rem;
+    }
   }
 
   &_width {
@@ -139,8 +143,5 @@
     &_center {
       text-align: center;
     }
-  }
-
-  &_position {
   }
 }

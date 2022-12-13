@@ -85,16 +85,10 @@
     }
   }
 
-  &_width {
-  }
-
   &_height {
     &1 {
       height: 100%;
     }
-  }
-
-  &_line-height {
   }
 
   &_background {
@@ -117,6 +111,9 @@
     }
     &4 {
       margin: 3.59rem 0 0;
+    }
+    &5 {
+      margin: 0 0 0 1.5rem;
     }
   }
 
