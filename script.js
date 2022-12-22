@@ -50,3 +50,17 @@ const openSwiperBig = () => {
 if (document.querySelector('.open-swiper-big')) {
   openSwiperBig();
 }
+
+document.querySelectorAll('img').forEach(el => {
+  if (el.getAttribute('src') === '') {
+    el.src = 'img/plug.webp';
+  }
+});
+
+if (document.querySelector('.open-social-network')) {
+  document.querySelectorAll('.open-social-network').forEach((el, ind) => {
+    el.addEventListener('click', (e) => {
+      document.querySelectorAll('.share-social-network')[ind].classList.toggle('container_display-none');
+    })
+  })
+}
