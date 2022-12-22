@@ -7,3 +7,4 @@
 - [Фото внутри](https://stanislavponomarev93.github.io/news_m/photo_inside.html)
 - [Редакция](https://stanislavponomarev93.github.io/news_m/edition.html)
 - [Видео](https://stanislavponomarev93.github.io/news_m/video.html)
+- [Автор](https://stanislavponomarev93.github.io/news_m/author.html)
