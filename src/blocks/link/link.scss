@@ -32,6 +32,12 @@
     }
   }
 
+  &_align-self {
+    &_center {
+      align-self: center;
+    }
+  }
+
   &_column-gap {
     &1 {
       column-gap: 4.53rem;
@@ -160,8 +166,5 @@
     &-uppercase {
       text-transform: uppercase;
     }
-  }
-
-  &_position {
   }
 }
