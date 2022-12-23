@@ -38,12 +38,19 @@ document.querySelector('.loupe2').addEventListener('click', () => {
 
 const openSwiperBig = () => {
   const swiperBig = document.querySelector('.swiper-big');
-  document.querySelector('.open-swiper-big').addEventListener('click', () => {
-    swiperBig.classList.remove('container_display-none');
-    window.scrollTo(0, 0);
+  let windowScrollY = 0;
+  document.querySelectorAll('.open-swiper-big').forEach(el => {
+    el.addEventListener('click', () => {
+      windowScrollY = window.scrollY;
+      swiperBig.classList.remove('container_display-none');
+      window.scrollTo(0, 0);
+    });
   });
-  document.querySelector('.close-swiper-big').addEventListener('click', () => {
-    swiperBig.classList.add('container_display-none');
+  document.querySelectorAll('.close-swiper-big').forEach(el => {
+    el.addEventListener('click', () => {
+      swiperBig.classList.add('container_display-none');
+      window.scrollTo(0, windowScrollY);
+    })
   })
 }
 

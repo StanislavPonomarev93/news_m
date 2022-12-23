@@ -5,6 +5,10 @@
   color: #000;
   font-size: 3.75rem;
 
+  &_inlaine-blok {
+    display: inline-block;
+  }
+
   &_flex {
     &1 {
       flex-direction: row;
@@ -120,6 +124,9 @@
     }
     &5 {
       margin: 0 0 0 1.5rem;
+    }
+    &6 {
+      margin: 3rem 0 0;
     }
   }
 

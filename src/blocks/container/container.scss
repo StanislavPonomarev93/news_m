@@ -140,6 +140,24 @@
     &16 {
       margin: 0 0 4rem;
     }
+    &17 {
+      margin: 3.6rem -3.1rem 0;
+    }
+    &18 {
+      margin: 6rem 0 0;
+    }
+    &19 {
+      margin: 6rem -3.1rem 0;
+    }
+    &20 {
+      margin: 0 0 3rem;
+    }
+    &21 {
+      margin: 5rem 0 3rem;
+    }
+    &22 {
+      margin: 12.4rem -3.1rem 0;
+    }
   }
 
   &_padding {
@@ -163,6 +181,15 @@
     }
     &7 {
       padding: 1.8rem 0;
+    }
+    &8 {
+      padding: 0 3.1rem 4.6rem;
+    }
+    &9 {
+      padding: 4.5rem 5.8rem 7.5rem;
+    }
+    &10 {
+      padding: 3rem 3.1rem 5rem;
     }
   }
 
@@ -191,6 +218,15 @@
       }
       &3 {
         background-color: var(--color10);
+      }
+      &4 {
+        background: linear-gradient(to bottom, #fff 37.4rem, var(--color11) 0);
+      }
+      &5 {
+        background-color: var(--color12);
+      }
+      &6 {
+        background-color: var(--color11);
       }
     }
     &-image {

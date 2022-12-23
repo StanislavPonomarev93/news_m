@@ -8,3 +8,4 @@
 - [Редакция](https://stanislavponomarev93.github.io/news_m/edition.html)
 - [Видео](https://stanislavponomarev93.github.io/news_m/video.html)
 - [Автор](https://stanislavponomarev93.github.io/news_m/author.html)
+- [Спецпроект](https://stanislavponomarev93.github.io/news_m/special_project.html)
