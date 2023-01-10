@@ -74,11 +74,10 @@ if (document.querySelector('.open-social-network')) {
 
 const menu = document.querySelector('.menu');
 document.querySelector('.menu-btn').addEventListener('click', (e) => {
-  if (e.target.getAttribute('src') === 'img/icon/menu.svg') {
+  if (menu.classList.contains('container_display-none')) {
     e.target.src = 'img/icon/close_dark.svg';
-    menu.classList.remove('container_display-none');
   } else {
     e.target.src = 'img/icon/menu.svg';
-    menu.classList.add('container_display-none');
   }
+  menu.classList.toggle('container_display-none');
 })
